@@ -44,6 +44,8 @@ p{
 }
 .main-menu li>a{
   padding: 0 20px;
+}  
+
 .main-menu li:last-child{
   border-right: none;
 }
@@ -53,7 +55,8 @@ p{
 }
 .portada{
   height: 150px;
-  background: url(../img/semilla.jpg);
+  background: url(../img/semilla.jpg) no-repeat center;
+  background-size: cover;
 }
 
 
@@ -76,8 +79,9 @@ p{
 
 /*   Servicios  */
 #servicios h3{
+  padding: 5px 30px;
   text-align: center;
 }
-#servicios .row{
-  margin-top: 30px;
+#servicios .col-sm-4{
+  margin-top: 40px;
 }
