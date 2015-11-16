@@ -8,6 +8,7 @@ body{
 }
 img{
   max-width: 100%;
+  vertical-align: top;
 }
 a{
   text-decoration: none;
@@ -21,27 +22,34 @@ h1,h1,h3{
 }
 /*    HEADER   */
 .logo{
-  width: 30px;
-  height: 30px;
+  width: 100px;
+  height: 100px;
 }
 .header-menu{
   background: #FFF;
 }
 
+.section #header{
+  margin-top: 0;
+}
+.logo{
+  display: inline-block;
+}
 .main-menu li{
-  padding: 0 20px;
   display: inline-block;
   border-right: 2px solid darkgray;
 }
-
+.main-menu li>a{
+  padding: 0 20px;
 .main-menu li:last-child{
   border-right: none;
 }
 .header-content{
+  margin-top: 30px;
   background: #E0E0E0;
 }
 .portada{
-  width: 100%;
+  background: url(..img/semilla.jpg);
 }
 
 
