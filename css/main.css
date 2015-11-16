@@ -1,1 +1,28 @@
-/* Inserta tu codigo aqui */
+/* códigos comunes */
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  color: lightgray;
+}
+img{
+  max-width: 100%;
+}
+a{
+  text-decoration: none;
+}
+/*    HEADER   */
+.main-menu li{
+  padding: 0 20px;
+}
+.header-content{
+  background: #E0E0E0;
+}
+
+/*   Nosotros  */
+.metodo .col-sm-6:last-child{
+  background: #495F41;
+}
+
+/*   Servicios  */
