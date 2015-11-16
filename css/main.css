@@ -20,7 +20,7 @@ h1,h1,h3{
 p{
   padding-top:15px;
   text-align: center;
-  margin: 0 100px;
+  margin: 0 250px;
 }
 .section{
   margin-top: 50px;
@@ -71,15 +71,19 @@ p{
 .mi-vision{
   margin-top: 15px;
 }
-
+.metodo{
+  margin-top: 50px;
+  height: 200px;
+  margin-right: 15px;
+}
 .metodo .col-sm-6{
+  height: 100%;
   padding-left: 0;
   padding-right: 0;
 }
 .metodo .col-sm-6:last-child{
   background: #495F41;
-  padding: 200px 50px;
-  padding-right: 15px;
+  padding: 80px 50px;
 }
 
 /*   Servicios  */
