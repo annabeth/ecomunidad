@@ -70,16 +70,14 @@ p{
 .mi-vision{
   margin-top: 15px;
 }
-.metodo{
-  height: 500px;
-}
+
 .metodo .col-sm-6{
   padding-left: 0;
   padding-right: 0;
 }
 .metodo .col-sm-6:last-child{
   background: #495F41;
-  padding: 50px;
+  padding: 100px 50px;
   padding-right: 15px;
 }
 
