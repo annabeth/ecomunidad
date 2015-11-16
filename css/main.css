@@ -40,7 +40,6 @@ p{
   display: inline-block;
 }
 .main-menu{
-  display: inline-block;
   vertical-align: middle;
 }
 .main-menu li{
@@ -55,7 +54,6 @@ p{
   border-right: none;
 }
 .header-content{
-  margin-top: 30px;
   background: #E0E0E0;
 }
 .portada{
@@ -73,7 +71,7 @@ p{
   margin-top: 15px;
 }
 .metodo{
-  height: 452px;
+  height: 500px;
 }
 .metodo .col-sm-6{
   padding-left: 0;
