@@ -13,18 +13,54 @@ a{
   text-decoration: none;
   color: gray;
 }
+h1,h1,h3{
+  color: #000;
+}
+.section{
+  margin-top: 50px;
+}
 /*    HEADER   */
+.logo{
+  width: 30px;
+  height: 30px;
+}
+.header-menu{
+  background: #FFF;
+}
+
 .main-menu li{
   padding: 0 20px;
   display: inline-block;
+  border-right: 2px solid darkgray;
+}
+
+.main-menu li:last-child{
+  border-right: none;
 }
 .header-content{
   background: #E0E0E0;
 }
+.portada{
+  width: 100%;
+}
+
 
 /*   Nosotros  */
+.mi-vision .col-sm-6{
+  padding: 0 50px;
+}
+.mi-vision{
+  margin-top: 15px;
+}
+.metodo .col-sm-6{
+  padding-left: 0;
+  padding-right: 0;
+}
 .metodo .col-sm-6:last-child{
+  color: white;
   background: #495F41;
+  padding: 50px;
+  padding-right: 15px;
 }
 
 /*   Servicios  */
