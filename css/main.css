@@ -17,6 +17,9 @@ a{
 h1,h1,h3{
   color: #000;
 }
+p{
+  margin-top:15px;
+}
 .section{
   margin-top: 50px;
 }
@@ -49,6 +52,7 @@ h1,h1,h3{
   background: #E0E0E0;
 }
 .portada{
+  height: 150px;
   background: url(../img/semilla.jpg);
 }
 
@@ -71,3 +75,9 @@ h1,h1,h3{
 }
 
 /*   Servicios  */
+#servicios h3{
+  text-align: center;
+}
+#servicios .row{
+  margin-top: 30px;
+}
