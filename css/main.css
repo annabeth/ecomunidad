@@ -4,17 +4,19 @@ html,body{
   width: 100%;
 }
 body{
-  color: lightgray;
+  color: gray;
 }
 img{
   max-width: 100%;
 }
 a{
   text-decoration: none;
+  color: gray;
 }
 /*    HEADER   */
 .main-menu li{
   padding: 0 20px;
+  display: inline-block;
 }
 .header-content{
   background: #E0E0E0;
